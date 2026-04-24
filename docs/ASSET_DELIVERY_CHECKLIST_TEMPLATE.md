@@ -204,7 +204,7 @@
 当前项目标准目录：
 
 - 角色资源：
-  - [WeatherAssets.rkassets](/Users/bluedavy/Desktop/ManulForecast/WeatherAssets/Sources/WeatherAssets/WeatherAssets.rkassets)
+  - [WeatherAssets Swift Package 资源目录](/Users/bluedavy/Desktop/ManulForecast/WeatherAssets/Sources/WeatherAssets)
 - 天气特效：
   - [Rain.usdz](/Users/bluedavy/Desktop/ManulForecast/ManulForecast/models/Rain.usdz)
 

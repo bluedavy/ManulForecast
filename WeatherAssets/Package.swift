@@ -26,6 +26,15 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "WeatherAssets",
-            dependencies: []),
+            dependencies: [],
+            resources: [
+                .copy("Manul.usdz"),
+                .copy("Manul_lookright.usdz"),
+                .copy("Manul_lookleft.usdz"),
+                .copy("Manul_shiver.usdz"),
+                .copy("Manul_tilt.usdz"),
+                .copy("Manul_shakewater.usdz"),
+                .copy("Manul_nodsleepy.usdz"),
+            ]),
     ]
 )
