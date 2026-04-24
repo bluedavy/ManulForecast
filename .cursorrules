@@ -1,0 +1,19 @@
+# Manul Forecast PoC (v2.0) - Cursor Rules
+## 1. Tech Stack & Context
+- Language: Swift 6 (Strict Concurrency Checking Enabled)
+- Frameworks: SwiftUI, RealityKit (Pure 3D / Non-AR Mode ONLY)
+- Minimum Target: iOS 26.2+ / macOS (Apple Silicon)
+- Tooling: Xcode 26.2, Reality Composer Pro (RCP)
+
+## 2. Strict Constraints (DO NOT VIOLATE)
+- NO ARKit: Do NOT use `ARView`, `ARWorldTrackingConfiguration`, or any plane detection. This is a static 3D window.
+- Pure RealityView: All 3D rendering MUST happen inside a standard SwiftUI `RealityView`.
+- Camera Lockdown: The scene MUST use a `PerspectiveCamera` entity created in code, locked in a fixed position.
+- RCP Sandbox: RCP assets (.usdz) are treated as black boxes. Do NOT programmatically reconstruct particle systems or shader graphs in Swift. If parameters need changing, ONLY modify variables explicitly exposed by RCP (e.g., via Custom Components or Shader Graph parameters).
+- Concurrency: Adhere strictly to Swift 6 Concurrency. All UI and RealityKit state updates must be correctly isolated (e.g., `@MainActor`). Do not introduce data races.
+
+## 3. Code Modification Rules (For the AI/Cursor)
+- No Unprompted Refactoring: Do NOT refactor existing working code unless explicitly instructed.
+- Probe First: When encountering RealityKit components (especially from USDZ/RCP), prioritize printing or inspecting the entity hierarchy/components before attempting to modify them.
+- Ask Before Guessing: If a RealityKit API is deprecated or unknown, DO NOT hallucinate. Use your `@docs` capability to check Apple Documentation, or stop and output: "[REQUIRE_VERIFICATION]: Need to verify API for [Task]".
+- Minimal Changes: When fixing a bug, change the absolute minimum number of lines required. Do not rewrite the entire function or class.

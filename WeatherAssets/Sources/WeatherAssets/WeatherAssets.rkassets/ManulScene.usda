@@ -1,0 +1,14 @@
+#usda 1.0
+(
+    defaultPrim = "Manul"
+)
+
+def "Manul" (
+    active = true
+    prepend references = @Manul.usdz@
+)
+{
+    float3 xformOp:scale = (100, 100, 100)
+    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+}
+

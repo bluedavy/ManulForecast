@@ -1,0 +1,11 @@
+{
+  "pathsToIds" : {
+    "\/WeatherAssets\/Sources\/WeatherAssets\/WeatherAssets.rkassets\/Scene.usda" : "B824B7CA-6EE4-4F5A-9415-4CC58C66E868",
+    "WeatherAssets\/Sources\/WeatherAssets\/WeatherAssets.rkassets\/ManulScene.usda" : "4370F053-6FDC-48C3-98F3-D600EE433637"
+  },
+  "projectID" : 8854554450904881663,
+  "uuidToIntID" : {
+    "4370F053-6FDC-48C3-98F3-D600EE433637" : 5340794837042080946,
+    "B824B7CA-6EE4-4F5A-9415-4CC58C66E868" : -3859198695945331382
+  }
+}

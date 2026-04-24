@@ -1,0 +1,291 @@
+{
+  "4370F053-6FDC-48C3-98F3-D600EE433637" : {
+    "objectMetadataList" : [
+      [
+        "4370F053-6FDC-48C3-98F3-D600EE433637",
+        "Manul",
+        "Armature",
+        "Armature"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "4370F053-6FDC-48C3-98F3-D600EE433637",
+        "Manul",
+        "Manul"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "4370F053-6FDC-48C3-98F3-D600EE433637",
+        "Manul"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "4370F053-6FDC-48C3-98F3-D600EE433637",
+        "Manuled",
+        "_materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "4370F053-6FDC-48C3-98F3-D600EE433637",
+        "Manulwithshapekeys",
+        "_materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "4370F053-6FDC-48C3-98F3-D600EE433637",
+        "Manul",
+        "Mesh_0_001",
+        "Mesh_0_001_001"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "4370F053-6FDC-48C3-98F3-D600EE433637",
+        "ManulNew",
+        "Mesh_0_001",
+        "Mesh_0_001_001"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "4370F053-6FDC-48C3-98F3-D600EE433637",
+        "Manuled",
+        "Armature"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "4370F053-6FDC-48C3-98F3-D600EE433637",
+        "ManulNew",
+        "Mesh_0_001"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "4370F053-6FDC-48C3-98F3-D600EE433637",
+        "ManulNew",
+        "_materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "4370F053-6FDC-48C3-98F3-D600EE433637",
+        "Manul",
+        "Mesh_0_001"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "4370F053-6FDC-48C3-98F3-D600EE433637",
+        "Manul",
+        "Armature"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "4370F053-6FDC-48C3-98F3-D600EE433637",
+        "ManulNew"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "4370F053-6FDC-48C3-98F3-D600EE433637",
+        "Manul",
+        "Manul",
+        "_materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "4370F053-6FDC-48C3-98F3-D600EE433637",
+        "Manul",
+        "_materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "4370F053-6FDC-48C3-98F3-D600EE433637",
+        "Manul",
+        "Manul",
+        "Armature",
+        "mesh1"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "4370F053-6FDC-48C3-98F3-D600EE433637",
+        "Manul",
+        "_materials",
+        "Material_0_001"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "4370F053-6FDC-48C3-98F3-D600EE433637",
+        "Manul",
+        "Manul",
+        "Armature"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "4370F053-6FDC-48C3-98F3-D600EE433637",
+        "Manul",
+        "Armature",
+        "mesh1"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "4370F053-6FDC-48C3-98F3-D600EE433637",
+        "Manul11",
+        "Mesh_0_001",
+        "Skel"
+      ],
+      {
+        "disallowsFraming" : false,
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "4370F053-6FDC-48C3-98F3-D600EE433637",
+        "Manul11",
+        "Mesh_0_001"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "4370F053-6FDC-48C3-98F3-D600EE433637",
+        "ManulNew",
+        "Mesh_0_001",
+        "Skel"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "4370F053-6FDC-48C3-98F3-D600EE433637",
+        "Manulwithshapekeys",
+        "_materials",
+        "Material_0_001_001"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "4370F053-6FDC-48C3-98F3-D600EE433637",
+        "ManulNew",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "4370F053-6FDC-48C3-98F3-D600EE433637",
+        "Manuled",
+        "Armature",
+        "mesh1"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "B824B7CA-6EE4-4F5A-9415-4CC58C66E868" : {
+    "objectMetadataList" : [
+      [
+        "B824B7CA-6EE4-4F5A-9415-4CC58C66E868",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "B824B7CA-6EE4-4F5A-9415-4CC58C66E868",
+        "Manul"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "B824B7CA-6EE4-4F5A-9415-4CC58C66E868",
+        "Manul",
+        "Mesh_0_001"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "B824B7CA-6EE4-4F5A-9415-4CC58C66E868",
+        "Manul",
+        "_materials",
+        "Material_0_001"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "B824B7CA-6EE4-4F5A-9415-4CC58C66E868",
+        "Manul",
+        "_materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  }
+}
