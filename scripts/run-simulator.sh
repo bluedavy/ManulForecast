@@ -7,6 +7,16 @@ INTERMEDIATES_DIR="${OBJROOT:-/tmp/ManulForecastIntermediates}"
 APP_PATH="$PRODUCTS_DIR/Debug-iphonesimulator/ManulForecast.app"
 BUNDLE_ID="wowtools.ManulForecast"
 
+bring_simulator_to_front() {
+  if command -v open >/dev/null 2>&1; then
+    open -a Simulator >/dev/null 2>&1 || true
+  fi
+
+  if command -v osascript >/dev/null 2>&1; then
+    osascript -e 'tell application "Simulator" to activate' >/dev/null 2>&1 || true
+  fi
+}
+
 if [[ -z "${DEVICE_ID:-}" ]]; then
   DEVICE_ID="$(
     xcrun simctl list devices available |
@@ -30,8 +40,10 @@ xcodebuild \
   OBJROOT="$INTERMEDIATES_DIR" \
   build
 
+bring_simulator_to_front
 xcrun simctl boot "$DEVICE_ID" >/dev/null 2>&1 || true
 xcrun simctl bootstatus "$DEVICE_ID" -b
 xcrun simctl uninstall "$DEVICE_ID" "$BUNDLE_ID" >/dev/null 2>&1 || true
 xcrun simctl install "$DEVICE_ID" "$APP_PATH"
 xcrun simctl launch "$DEVICE_ID" "$BUNDLE_ID"
+bring_simulator_to_front
